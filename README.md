@@ -1,5 +1,5 @@
 # ETL-Pipeline-from-Alpha-Vantage-API-to-PostgreSQL
-Project Description: Stock Price ETL Pipeline
+
 This project implements a complete end-to-end ETL (Extract, Transform, Load) pipeline that retrieves real-time stock price data from the Alpha Vantage API, processes it using Kafka and PySpark, and stores it in a PostgreSQL database. The pipeline aims to simulate a near real-time data processing flow, suitable for analyzing stock prices for future data-driven applications such as analytics dashboards, algorithmic trading models, or financial monitoring systems.
 
 ### Project Objective
@@ -22,4 +22,4 @@ After transforming the data, it is inserted into a PostgreSQL table called ohlcv
 The project employs Spark's foreachBatch function to process each micro-batch of stock data from Kafka and handle it with the process_batch function. This combination allows for seamless and efficient integration between Kafka, PySpark, and PostgreSQL. The pipeline continuously runs, awaiting new data until terminated manually.
 
 ### Summary
-This project showcases a powerful data pipeline that automates the collection, transformation, and storage of stock price data in a real-time environment. It leverages cutting-edge tools such as Kafka for distributed streaming, PySpark for big data processing, and PostgreSQL for structured data storage. By the end of the project, users will have a solid foundation for building advanced financial data systems capable of processing and analyzing large volumes of stock data in real-time.
+This project showcases a powerful data pipeline that automates the collection, transformation, and storage of stock price data in a real-time environment. It leverages cutting-edge tools such as Kafka for distributed streaming, PySpark for big data processing, and PostgreSQL for structured data storage. The project pipeline will enable users to analyze large volumes of stock data in real-time.
