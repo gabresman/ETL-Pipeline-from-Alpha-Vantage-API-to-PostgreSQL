@@ -23,3 +23,6 @@ The project employs Spark's foreachBatch function to process each micro-batch of
 
 ### Summary
 This project showcases a powerful data pipeline that automates the collection, transformation, and storage of stock price data in a real-time environment. It leverages cutting-edge tools such as Kafka for distributed streaming, PySpark for big data processing, and PostgreSQL for structured data storage. The pipeline will enable users to analyze large volumes of stock data in real-time.
+
+
+
